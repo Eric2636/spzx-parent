@@ -27,7 +27,7 @@ public class IndexController {
     @PostMapping(value = "login")
     public Result login(@RequestBody LoginDto loginDto) {
         System.out.println('8');
-        Sgyufyufuyfyufyu
+        Sgyufyufuyfyufyuioioioo
 
         LoginVo loginVo = sysUserService.login(loginDto) ;
         return Result.build(loginVo, ResultCodeEnum.SUCCESS) ;

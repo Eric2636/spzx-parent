@@ -26,7 +26,6 @@ public class IndexController {
     @Operation(summary = "登录接口")
     @PostMapping(value = "login")
     public Result login(@RequestBody LoginDto loginDto) {
-        65656565
         LoginVo loginVo = sysUserService.login(loginDto) ;
         return Result.build(loginVo, ResultCodeEnum.SUCCESS) ;
     }
